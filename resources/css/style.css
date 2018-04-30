@@ -3,7 +3,7 @@
 html {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  color: #434343;
+  color: #535353;
 }
 
 section {
@@ -78,7 +78,7 @@ header .container{
 #academy {
   font-size: 1.5em;
   font-family: Raleway;
-  color: #6d6d6d;
+  color: #3A5153;
   text-transform: capitalize;
 }
 
@@ -98,16 +98,15 @@ li {
 .featured {
   width: 60%;
   height: auto;
-  margin: 32px 24px;
+  padding: 32px 24px;
 }
 
 .sidebar {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border-left: solid 1px #d3d3d3;
-  margin-top: 1rem;
+  justify-content: flex-start;
+  padding: 2rem 0;
 }
 
 .featured img {
@@ -117,6 +116,11 @@ li {
 
 .sidebar-item {
 display: flex;
+align-items: center;
+}
+
+.sidebar-item:nth-child(2n+1){
+    background-color: #99D5DA;
 }
 
 .sidebar-item img {
@@ -125,15 +129,11 @@ display: flex;
   padding: 1rem;
 }
 
-.item-txtbox {
-  display: flex;
-  align-items: center;
-}
-
 .item-txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 1rem 1rem 1rem 0;
 }
 
 .item-txt p {
@@ -148,12 +148,16 @@ display: flex;
   font-weight: bold;
 }
 
-
 /* Banner */
 
 .banner {
   padding-top: 66px;
   background-color: #d3d3d3;
+}
+
+.banner .container .sidebar {
+  border: none;
+  justify-content: center;
 }
 
 .button {
@@ -165,14 +169,14 @@ display: flex;
 }
 
 .button:hover {
-  background-color: #6999e2;
+  background-color: #9fd4c6;
   transition-duration: 500ms;
 }
 
 /* Information */
 
-.news .container img {
-    margin-bottom: 1rem;
+.container .featured h1 {
+  margin-top: 2rem;
 }
 
 /* Courses */
@@ -192,7 +196,7 @@ section.courses {
 }
 
 .courses-container {
-  margin: 2rem 4.5rem;
+  margin: 1rem 4.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -222,7 +226,7 @@ section.courses {
   flex-direction: column;
 }
 
-.thesis .container h1 {
+.thesis h1 {
   text-align: center;
   margin: 2rem auto 0 auto;
 }
@@ -230,14 +234,12 @@ section.courses {
 .thesis .container .container {
   display: flex;
   flex-direction: row;
-}
-
-.thesis .container .container .sidebar {
-  justify-content: flex-start;
-  border: none;
+  width: 100%;
 }
 
 video {
+  width: 100%;
+  height: auto;
   margin-bottom: 1.5rem;
 }
 
