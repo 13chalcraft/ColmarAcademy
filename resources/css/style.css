@@ -1,0 +1,265 @@
+/* General */
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #434343;
+}
+
+section {
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 1;
+  height: 4rem;
+  width: 100%;
+  border-bottom: solid 2px #d3d3d3;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+header .container{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 3em;
+}
+
+#colmar {
+  font-size: 1.5rem;
+  font-family: Raleway;
+  font-weight: 900;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+#academy {
+  font-size: 1.5em;
+  font-family: Raleway;
+  color: #6d6d6d;
+  text-transform: capitalize;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+li {
+  margin: 0 0.5rem;
+}
+
+/* 60-40 split sections */
+
+.featured {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.sidebar {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: solid 1px #d3d3d3;
+  margin-top: 1rem;
+}
+
+.featured img {
+  width: 100%;
+  height: auto;
+}
+
+.sidebar-item {
+display: flex;
+}
+
+.sidebar-item img {
+  width: 35%;
+  height: 35%;
+  padding: 1rem;
+}
+
+.item-txtbox {
+  display: flex;
+  align-items: center;
+}
+
+.item-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-txt p {
+  margin-bottom: 0.5rem;
+}
+
+.item-txt a {
+    color: #6999e2;
+}
+
+.item-txt a:hover {
+  font-weight: bold;
+}
+
+
+/* Banner */
+
+.banner {
+  padding-top: 66px;
+  background-color: #d3d3d3;
+}
+
+.button {
+  background-color: #434343;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.button:hover {
+  background-color: #6999e2;
+  transition-duration: 500ms;
+}
+
+/* Information */
+
+.news .container img {
+    margin-bottom: 1rem;
+}
+
+/* Courses */
+
+section.courses {
+  background-color: #d3d3d3;
+}
+
+.courses .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.courses .container h1 {
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+
+.courses-container {
+  margin: 2rem 4.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-item {
+  margin: 1rem;
+  background-color: white;
+  width: 300px;
+}
+
+.course-item img {
+  width: 100%;
+  height: auto;
+}
+
+.course-item .item-txt {
+  margin: 1rem;
+}
+
+
+
+/* Thesis */
+
+.thesis .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis .container h1 {
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+
+.thesis .container .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesis .container .container .sidebar {
+  justify-content: flex-start;
+  border: none;
+}
+
+video {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+  border-top: solid 2px #d3d3d3;
+  height: 4rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+footer .container{
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5rem;
+}
